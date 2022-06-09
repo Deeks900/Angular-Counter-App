@@ -1,0 +1,15 @@
+<div class="container">
+  <header>
+    <!-- Interpolation -->
+    <h1>{{ title }}</h1>
+  </header>
+
+  <main>
+    <h2>Current Count is: {{ count }}</h2>
+  </main>
+
+  <!-- Event Binding -->
+  <button (click)="handleReset()" >Reset Count</button>
+  <button (click)="handleIncrease()" >Increase Count</button>
+  <button (click)="handleDecrease()" >Decrease Count</button>
+</div>
